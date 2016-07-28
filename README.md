@@ -17,4 +17,4 @@ of utilities, who handles paying them and how much they cost. Once run, it will 
 which tenant owes the other tenant and how much. I've also added how much each tenant should
 pay including utilities, the total utility cost and the split of the utilities.
 
-    $ [sudo] ruby util_splitter.rb
+    $ ruby util_splitter.rb
