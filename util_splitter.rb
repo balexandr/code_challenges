@@ -11,6 +11,8 @@
 # First update the list of tenants and how much each person's
 # room costs. Then add each utility, it's price and roommate who
 # pays for it. You can add as many roommates or utilities as you want
+# 
+# Then run 'ruby util_splitter.rb' to see the output
 
 def tenants
   {
