@@ -1,12 +1,10 @@
-Helpful/Fun Scripts
-===================
-
-These are a handful of scripts I write in my free time to handle tasks
-that require substantial manual effort.
-
-Utility Splitter
+Code Challenges
 ----------------
+List of code challenges to show how I would solve certain problems
 
+
+Scripts/Utility Splitter
+----------------
 The util_splitter script was created because I was living with multiple tenants
 where each tenant handled different utilities and paid different rent amounts.
 Figuring out how much each person owed the other every month became daunting and
