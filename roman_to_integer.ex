@@ -1,16 +1,15 @@
-@moduledoc """
-Intuition/Approach
+defmodule RomanToInteger do
+  @moduledoc """
+  Intuition/Approach
 
-I knew I had to create the map and split the string, it got a bit trickier with
-figuring out the 6 occurances where the numeral changes the number when its paired up and
-wanted to keep it as readable as possible.
+  I knew I had to create the map and split the string, it got a bit trickier with
+  figuring out the 6 occurances where the numeral changes the number when its paired up and
+  wanted to keep it as readable as possible.
 
-It seemed to use a bit more memory and run time than some others, but I found it easier to comprehend.
+  It seemed to use a bit more memory and run time than some others, but I found it easier to comprehend.
 
-Visible here: https://leetcode.com/problems/roman-to-integer/solutions/3690666/elixir-readable-solution-w-regex/
-"""
-
-defmodule Solution do
+  Visible here: https://leetcode.com/problems/roman-to-integer/solutions/3690666/elixir-readable-solution-w-regex/
+  """
   @numeral_to_int_map %{
       "I" => 1,
       "IV" => 4,

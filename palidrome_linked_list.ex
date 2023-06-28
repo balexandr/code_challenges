@@ -17,6 +17,8 @@ defmodule PalindromeLinkedList do
   #         }
   #   defstruct val: 0, next: nil
   # end
+
+  Visible here: https://leetcode.com/problems/palindrome-linked-list/solutions/3693877/elixir-simple-recursion-solution/
   """
 
   @doc """
